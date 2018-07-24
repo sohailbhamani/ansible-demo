@@ -1,0 +1,6 @@
+#Ignore the vagrant dir
+.vagrant
+#ignore all logfiles
+*.log
+#ignore anisible-demo filder
+ansible-demo
