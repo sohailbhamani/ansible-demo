@@ -9,3 +9,4 @@ ansible-demo
 #ignore all certs
 *.pub
 id_rsa
+.boto
