@@ -23,6 +23,14 @@ if [[ $? == 127 ]]; then
     python3 get-pip.py
 fi
 
+# install awscli, ebcli, and boto using pip
+echo "#######################################"
+echo " Installing AWS/EB CLI & Boto with Pip"
+echo "#######################################"
+pip install -U awscli
+pip install -U awsebcli
+pip install -U boto
+
 # copy postinstall script to vagrant user home dir and change permissions
 #cp /vagrant/ansible-postinstall.sh /home/vagrant/postinstall.sh
 #chown vagrant:vagrant /home/vagrant/postinstall.sh

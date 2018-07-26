@@ -4,3 +4,8 @@
 *.log
 #ignore anisible-demo filder
 ansible-demo
+#ignore .aws folder
+.aws
+#ignore all certs
+*.pub
+id_rsa
