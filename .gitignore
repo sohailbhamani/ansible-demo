@@ -2,7 +2,7 @@
 .vagrant
 #ignore all logfiles
 *.log
-#ignore anisible-demo filder
+#ignore demo filder
 ansible-demo
 #ignore .aws folder
 .aws
